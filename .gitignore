@@ -1,0 +1,27 @@
+# --- Credenciales y secretos (NUNCA subir) ---
+.aws/
+credentials
+config.yaml
+*.pem
+*.key
+.env
+.env.*
+
+# --- Entornos virtuales ---
+venv/
+.venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Editor / sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Nota: la carpeta salidas/ (gráficas y CSV generados) SÍ se versiona
+# para que el revisor vea los resultados sin ejecutar el script.
